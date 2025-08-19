@@ -88,7 +88,7 @@ These exercise small-number routines (utils/sort_small_num.c):
 ```
 ### Random single-string input:
 ```sh
-./push_swap "$(shuf -i 1-100 -n 20)"
+./push_swap $(shuf -i 1-100 -n 20)
 ```
 ### Large sets
 ```sh
