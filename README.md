@@ -96,4 +96,4 @@ These exercise small-number routines (utils/sort_small_num.c):
 ```
 ### Visualisation 
 "Related Projects"
-[Push_swap visualizer](https://github.com/someuser/push_swap_visualizer](https://github.com/o-reo/push_swap_visualizer) — a visualization tool to watch the sorting operations in action.
+[Push_swap visualizer](https://github.com/o-reo/push_swap_visualizer) — a visualization tool to watch the sorting operations in action.
