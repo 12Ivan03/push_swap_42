@@ -54,10 +54,10 @@ Single-argument (space-separated list):
 
 ## Behaviour
 * **Input**: list of integers (either as separate argv or a single quoted string).
-* **Validation**: performed by check_argv
-      * reject non_numeric tokens
-      * reject duplicates
-      * reject integer overflow
+* **Validation**: performed by check_argv:
+* reject non_numeric tokens
+* reject duplicates
+* reject integer overflow
 * **Output**: sequence of operations printed to stdout (commands like sa, pb, ra, rra, etc.).
 
 Example:
