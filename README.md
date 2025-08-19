@@ -34,25 +34,11 @@ git clone https://gituhb.com/yourusername/push_swap_42.git
 cd push_swap_42
 make
 ```
----
 From project root:
 
 ```sh
 make
 ```
-
-Clean build artifacts:
-
-```sh
-make clean
-```
-
-Rebuild: 
-
-```sh
-make re
-```
-
 ---
 ## Usage
 
@@ -73,3 +59,39 @@ Single-argument (space-separated list):
       * reject duplicates
       * reject integer overflow
 * **Output**: sequence of operations printed to stdout (commands like sa, pb, ra, rra, etc.).
+
+Example:
+```sh
+./push_swap "3 2 1"
+sa
+rra
+```
+Count operations: 
+```sh
+./push_swap "3 2 1" | wc -l
+```
+
+---
+## Testing
+No automated test harness is included. Suggested manual tests:
+### Small sets (2–5 elements)
+These exercise small-number routines (utils/sort_small_num.c):
+```sh
+./push_swap "2 1"
+./push_swap "3 1 2"
+./push_swap "5 4 3 2 1"
+```
+### Random medium sets
+(using GNU shuf; replace if not available):
+```sh
+./push_swap $(shuf -i 1-100 -n 20)
+```
+### Random single-string input:
+```sh
+./push_swap "$(shuf -i 1-100 -n 20)"
+```
+### Large sets
+```sh
+./push_swap $(shuf -i 1-500 -n 100)
+```
+
