@@ -27,7 +27,6 @@ Sorting strategies / utils:
 
 Requirements: POSIX C compiler (cc / gcc), make.
 
---
 ## Instalation 
 
 ```git
@@ -35,7 +34,6 @@ git clone https://gituhb.com/yourusername/push_swap_42.git
 cd push_swap_42
 make
 ```
-
 ---
 From project root:
 
@@ -54,3 +52,24 @@ Rebuild:
 ```sh
 make re
 ```
+
+---
+## Usage
+
+Basic: 
+```sh
+./push_swap 2 1 3 6 5 8
+```
+Single-argument (space-separated list):
+```sh
+./push_swap "2 1 3 6 5 8"
+```
+---
+
+## Behaviour
+* **Input**: list of integers (either as separate argv or a single quoted string).
+* **Validation**: performed by check_argv
+      * reject non_numeric tokens
+      * reject duplicates
+      * reject integer overflow
+* **Output**: sequence of operations printed to stdout (commands like sa, pb, ra, rra, etc.).
