@@ -85,14 +85,14 @@ These exercise small-number routines (utils/sort_small_num.c):
 (using GNU shuf; replace if not available):
 ```sh
 ./push_swap $(shuf -i 1-100 -n 20)
-```
-### Random single-string input:
-```sh
-./push_swap $(shuf -i 1-100 -n 20)
+
+./push_swap $(shuf -i 1-200 -n 100)
 ```
 ### Large sets
 ```sh
 ./push_swap $(shuf -i 1-500 -n 100)
+
+./push_swap $(shuf -i 1-1000 -n 700)
 ```
 ### Visualisation 
 "Related Projects"
