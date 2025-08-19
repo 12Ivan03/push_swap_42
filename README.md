@@ -22,11 +22,35 @@ Sorting strategies / utils:
 - Radix: [`utils/ft_redix_sort.c`](utils/ft_redix_sort.c) — [utils/ft_redix_sort.c](utils/ft_redix_sort.c)  
 - Helpers: [utils/* files](utils/) — [utils](utils/)
 
+---
 ## Build
 
 Requirements: POSIX C compiler (cc / gcc), make.
 
+--
+## Instalation 
+
+```git
+git clone https://gituhb.com/yourusername/push_swap_42.git
+cd push_swap_42
+make
+```
+
+---
 From project root:
 
 ```sh
 make
+```
+
+Clean build artifacts:
+
+```sh
+make clean
+```
+
+Rebuild: 
+
+```sh
+make re
+```
