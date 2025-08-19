@@ -94,4 +94,6 @@ These exercise small-number routines (utils/sort_small_num.c):
 ```sh
 ./push_swap $(shuf -i 1-500 -n 100)
 ```
-
+### Visualisation 
+"Related Projects"
+[Push_swap visualizer](https://github.com/someuser/push_swap_visualizer)— a visualization tool to watch the sorting operations in action.
