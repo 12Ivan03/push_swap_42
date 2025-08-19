@@ -27,7 +27,7 @@ Sorting strategies / utils:
 
 Requirements: POSIX C compiler (cc / gcc), make.
 
-## Instalation 
+## Installation 
 
 ```git
 git clone https://gituhb.com/yourusername/push_swap_42.git
