@@ -1,5 +1,7 @@
 # push_swap_42
 
+<img width="1319" height="881" alt="push_swap" src="https://github.com/user-attachments/assets/a4943e19-f18a-4dde-a6fb-64cb34ee048a" />
+
 Small push-swap implementation (42 / Codam style) that sorts integers using two stacks and a limited set of operations. The program prints a list of operations (one per line) to stdout that, when applied to the input stack, will result in a sorted ascending stack.
 
 ## Quick links
